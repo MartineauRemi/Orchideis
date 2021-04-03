@@ -1,0 +1,40 @@
+.plant-item{
+    margin: 40px;
+	margin-bottom: 50px;
+	display: flex;
+	align-items: flex-start;
+    flex-direction: column;
+	justify-content: center;
+	text-transform: capitalize;
+}
+
+.plant-item:hover{
+	box-shadow: 5px 5px 16px  rgba(0,0,0,0.1);
+}
+
+.plant-item-description h2{
+	font-size: 18px;
+}
+.plant-item:hover{
+	cursor: pointer;
+}
+
+.plant-item-cover{
+    height: 300px;
+	width: 300px;
+	border-radius: 5px;
+}
+
+@media(max-width:1024px){
+	.plant-item-cover{
+		width: 200px;
+		height: 200px;
+	}
+}
+
+@media(max-width:850px){
+	.plant-item-cover{
+        width: 300px;
+		height: 300px;
+    }
+}

@@ -1,0 +1,30 @@
+.opening-hours{
+    width: 500px;
+    border-collapse: separate;
+    border-spacing: 0 2px;
+}
+
+.opening-hours th{
+    padding-bottom: 30px;
+}
+
+.opening-hours td{
+    padding: 5px 20px;
+}
+.opening-hours tr td:nth-child(2){
+    background: #bbb;
+}
+
+.opening-hours tr:nth-child(2) td:nth-child(2){
+    background: #ddd;
+}
+
+.opening-hours tr.today td:nth-child(1){
+    background-color: #7aac95;
+    color: white;
+}
+
+.opening-hours tr.today td:nth-child(2){
+    background-color: #254641;
+    color:white;
+}

@@ -1,0 +1,24 @@
+.plant-list{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1140px;
+    margin: auto;
+}
+
+@media(max-width:1450px){
+	.plant-list{
+        width: 960px;
+    }
+}
+
+@media(max-width:1024px){
+	.plant-list{
+        width: 660px;
+    }
+}
+
+@media(max-width:850px){
+	.plant-list{
+        width: 660px;
+    }
+}
